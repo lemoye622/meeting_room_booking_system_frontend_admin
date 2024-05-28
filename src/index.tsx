@@ -1,7 +1,6 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { Index } from './pages/Index/Index';
 import { ErrorPage } from './pages/ErrorPage/ErrorPage';
 import { UserManage } from './pages/UserManage/UserManage';
