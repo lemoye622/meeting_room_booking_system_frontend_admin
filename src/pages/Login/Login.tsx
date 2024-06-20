@@ -24,7 +24,7 @@ export function Login() {
         if (res.status === 201 || res.status === 200) {
             message.success('登录成功');
 
-            localStorage.setItem('access_token', data.accessToken);
+        localStorage.setItem('access_token', data.accessToken);
             localStorage.setItem('refresh_token', data.refreshToken);
             localStorage.setItem('user_info', JSON.stringify(data.userInfo));
 
