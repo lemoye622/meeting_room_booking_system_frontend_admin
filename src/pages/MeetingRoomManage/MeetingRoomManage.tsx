@@ -1,4 +1,4 @@
-import { Badge, Button, Form, Image, Input, Popconfirm, Table, message } from "antd";
+import { Badge, Button, Form, Input, Popconfirm, Table, message } from "antd";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import './meeting_room_manage.css';
 import { ColumnsType } from "antd/es/table";

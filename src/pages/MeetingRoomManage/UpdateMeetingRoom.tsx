@@ -68,7 +68,7 @@ export function UpdateMeetingRoomModal(props: UpdateMeetingRoomModalProps) {
         query();
     }, [props.id]);
 
-    return <Modal title="更新会议室" open={props.isOpen} onOk={handleOk} onCancel={() => props.handleClose()} okText={'更新'}>
+    return <Modal title="更新会议室" open={props.isOpen} onOk={handleOk} onCancel={() => props.handleClose()} okText={'确认'} cancelText={'取消'}>
         <Form
             form={form}
             colon={false}
